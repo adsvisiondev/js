@@ -6,8 +6,7 @@ on:
 
   # اجرای خودکار هر 6 ساعت
   schedule:
-    - cron: "17 */6 * * *"
-
+  - cron: "0 3 * * *"
 permissions:
   contents: write
 
