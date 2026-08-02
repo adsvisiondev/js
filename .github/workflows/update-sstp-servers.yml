@@ -4,9 +4,10 @@ on:
   # اجرای دستی از تب Actions
   workflow_dispatch:
 
-  # اجرای خودکار هر 6 ساعت
+  # اجرای خودکار هر روز
   schedule:
-  - cron: "0 3 * * *"
+    - cron: "0 3 * * *"
+
 permissions:
   contents: write
 
